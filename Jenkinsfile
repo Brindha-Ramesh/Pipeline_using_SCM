@@ -20,7 +20,7 @@ pipeline {
 
         stage('Train Model') {
             steps {
-                sh 'python train.py'
+                sh 'python3 train.py'
             }
         }
 
